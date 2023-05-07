@@ -1,91 +1,47 @@
-Is it a VAG?
-Is one of the most expensive group mark?
-Is British car, but owns by VAG?
-Bentley
+Is it a programming language?
+Is it an interpreted language?
+Is it a dynamically-typed language?
+it's better than Phython
+JavaScript
 *
 *
-Is most expensive car in the world?
-Bugatti
+Python
 *
 *
-Porsche
+Does it run on a Java Virtual Machine?
+Java
 *
 *
-is this car reliable?
-Audi
+C
 *
 *
-Is this a German car from an expensive segment?
-are drivers of these cars usually associated with bad drivers?
-BMW
+Is it developed by Apple?
+Swift
 *
 *
-Mercedes-Benz
+Is it a compiled language?
+Does it run on a Java Virtual Machine?
+Java
 *
 *
-Is German mark from General Motors?
-Opel
+С#
 *
 *
-Volkswagen
+Is it similar to Matlab?
+Octave
 *
 *
-Is Italian car?
-Is very ugly car?
-Fiat
+Rails
 *
 *
-Does it usually red car?
-Ferrari
+Is it a scripting language?
+Is it often used for web development?
+JavaScript
 *
 *
-Lamborghini
+Julia
 *
 *
-Is Russian car?
-Buhanka is subgroup of this mark?
-UAZ
-*
-*
-Lada
-*
-*
-Is first popular American car mark?
-Nowadays is popular American electric car?
-Today one of this mark model one of the best electic car?
-Lucid
-*
-*
-Tesla
-*
-*
-Ford
-*
-*
-Is one of the most expensive car in the word?
-That is new car mark, which created in 2019?
-Appolo
-*
-*
-Bugatti
-*
-*
-Is cheap France car?
-Is more comfort France car?
-Peugeot
-*
-*
-Renault
-*
-*
-Is one of the most popular car mark from Japan?
-Is buisness mark from Japan?
-Lexus
-*
-*
-Nissan
-*
-*
-Is it an VAG?
+SQL
 *
 *

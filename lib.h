@@ -1,19 +1,16 @@
 #include <libxml/tree.h>
-#include "ext/cJSON.h"
 
 typedef struct Node Node;
 
 struct Node {
-    char* question;
-    Node* yes;
-    Node* no;
+    char *question;
+    Node *yes;
+    Node *no;
 };
 
-Node *createNode(char *question);
-void freeTree(Node *node);
-Node *buildTree(cJSON *obj);
-void printTree(Node *node, int depth);
-cJSON *saveTreeHelper(Node *node);
-void saveTree(char *filename, Node *node);
-void addNewAnswer(Node *node, char *newAnswer);
+Node *buildTree(FILE *file);
+void save_tree(FILE *file, Node *current_node);
+void add_question(Node *current_node, char *new_question, char *new_object);
+void freeTree(Node* node);
+void log_message(char *message);
 

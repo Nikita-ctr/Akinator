@@ -4,59 +4,46 @@
 #include "../lib.h"
 
 
-void play(Node *node, char *file_contents) {
+void play(Node *current_node) {
     char answer[10];
-    if (node->no == NULL) {
-        printf("Is it %s\n", node->question);
-        scanf("%s", answer);
-        if (strcmp(answer, "yes") == 0) {
-            printf("Great! I guessed it!\n");
-        } else {
-            printf("I give up. What were you thinking of?\n");
-            scanf("%s", answer);
-            addNewAnswer(node, answer);
 
-        }
-    } else {
-        printf("%s\n", node->question);
+    if (!current_node->yes && !current_node->no) {
+        printf("I think it's %s!\nDid I guess right? (yes/no): ", current_node->question);
         scanf("%s", answer);
         if (strcmp(answer, "yes") == 0) {
-            play(node->yes, file_contents);
+            printf("Thank god! I win!\n");
+            exit(EXIT_SUCCESS);
         } else {
-            play(node->no, file_contents);
+            printf("Oh no, I was wrong :(\nWhat was it? ");
+            char new_object[256], new_question[256];
+            scanf(" %[^\n]", new_object);
+            printf("What question can distinguish %s from %s? ", new_object, current_node->question);
+            scanf(" %[^\n]", new_question);
+            add_question(current_node, new_question, new_object);
+            return;
         }
+    }
+    printf("%s (yes/no): ", current_node->question);
+    scanf("%s", answer);
+    if (strcmp(answer, "yes") == 0) {
+        play(current_node->yes);
+    } else {
+        play(current_node->no);
     }
 }
 
-
 int main() {
+    const char *file_path = "C:\\Users\\Nikita\\CLionProjects\\akinator\\db.txt";
+    FILE *file = fopen(file_path, "r");
+    Node *root = buildTree(file);
+    printf("\nLet's play Akinator!\nAnswer the following questions with yes or no.\n");
+    log_message("Game started");
+    play(root);
+    file = fopen(file_path, "wb");
+    save_tree(file, root);
 
-    FILE *fp = fopen("db.json", "rb");
-    fseek(fp, 0, SEEK_END);
-    long file_size = ftell(fp);
-    fseek(fp, 0, SEEK_SET);
-    char *file_contents = malloc(file_size + 1);
-    fread(file_contents, file_size, 1, fp);
-    fclose(fp);
-    file_contents[file_size] = '\0';
-
-    cJSON *root = cJSON_Parse(file_contents);
-    if (!root) {
-        printf("Error parsing JSON: %s\n", cJSON_GetErrorPtr());
-        return 1;
-    }
-    Node *tree = buildTree(root->child);
-
-    printf("\nLet's play Akinator!\n");
-    printf("Answer the following questions with yes or no.\n");
-
-    play(tree, file_contents);
-
-    saveTree("db.json", tree);
-
-    cJSON_Delete(root);
-    free(file_contents);
-    freeTree(tree);
+    fclose(file);
+    freeTree(root);
+    log_message("Game over: the program is shutting down");
     return 0;
-
 }

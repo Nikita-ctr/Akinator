@@ -1,0 +1,47 @@
+Is it a programming language?
+Is it an interpreted language?
+Is it a dynamically-typed language?
+it's better than Phython
+JavaScript
+*
+*
+Python
+*
+*
+Does it run on a Java Virtual Machine?
+Java
+*
+*
+C
+*
+*
+Is it developed by Apple?
+Swift
+*
+*
+Is it a compiled language?
+Does it run on a Java Virtual Machine?
+Java
+*
+*
+С#
+*
+*
+Is it similar to Matlab?
+Octave
+*
+*
+Rails
+*
+*
+Is it a scripting language?
+Is it often used for web development?
+JavaScript
+*
+*
+Julia
+*
+*
+SQL
+*
+*

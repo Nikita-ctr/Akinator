@@ -1,85 +1,91 @@
-Is it a programming language?
-Is it interpreted language?
-Is it a dynamically-typed language?
-Python
+Is it a VAG?
+Is one of the most expensive group mark?
+Is British car, but owns by VAG?
+Bentley
 *
 *
-Is it run on a Java virtual machine?
-Java
+Is most expensive car in the world?
+Bugatti
 *
 *
-C
+Porsche
 *
 *
-Is it developed by Apple?
-Swift
+is this car reliable?
+Audi
 *
 *
-Is it a scripting language?
-Is it often used for web-development?
-Javascript
+Is this a German car from an expensive segment?
+are drivers of these cars usually associated with bad drivers?
+BMW
 *
 *
-Another?
-Ruby
+Mercedes-Benz
 *
 *
-SQl
+Is German mark from General Motors?
+Opel
 *
 *
-Is this a objected-oriented programming language?
-C#
+Volkswagen
 *
 *
-Objected-C
+Is Italian car?
+Is very ugly car?
+Fiat
 *
 *
-Is it a spoken language?
-Is it your native language?
-Russian
+Does it usually red car?
+Ferrari
 *
 *
-Is it the most popular language?
-English
+Lamborghini
 *
 *
-Chinese
+Is Russian car?
+Buhanka is subgroup of this mark?
+UAZ
 *
 *
-Is it a foreign language?
-DO Asians speak it?
-Japanise
+Lada
 *
 *
-Korean
+Is first popular American car mark?
+Nowadays is popular American electric car?
+Today one of this mark model one of the best electic car?
+Lucid
 *
 *
-Is this language used in Eurasia?
-Is this language used in southwest Europe?
-Is this the official language in Spain?
-Spanish
+Tesla
 *
 *
-Italian
+Ford
 *
 *
-Portuguese
+Is one of the most expensive car in the word?
+That is new car mark, which created in 2019?
+Appolo
 *
 *
-Is this language common in Africa?
-Is it expensive country?
-Arabic
+Bugatti
 *
 *
-Kenyan
+Is cheap France car?
+Is more comfort France car?
+Peugeot
 *
 *
-Is it a beautiful language?
-Is it an official language in France?
-French
+Renault
 *
 *
-Turkish
+Is one of the most popular car mark from Japan?
+Is buisness mark from Japan?
+Lexus
 *
 *
-Is it a sing language
+Nissan
+*
+*
+Is it an VAG?
+*
+*

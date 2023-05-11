@@ -1,4 +1,8 @@
-#include <libxml/tree.h>
+#include <string.h>
+#include <malloc.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 typedef struct Node Node;
 
